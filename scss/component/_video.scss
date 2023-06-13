@@ -1,5 +1,5 @@
 iframe {
-    border: solid 1px rgb(15, 15, 15);
+    border: solid 1px map-get($colores , secundario );
     border-radius: 2rem; 
     width: 40%;
     height: 350px ;
