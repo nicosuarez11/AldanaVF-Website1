@@ -1,0 +1,13 @@
+.grid-fotos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    width: 80%;
+    border: solid 1px rgb(15, 15, 15);
+    border-radius: 2rem; 
+}

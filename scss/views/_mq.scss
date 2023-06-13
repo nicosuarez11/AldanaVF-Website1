@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+    .grid-fotos {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        }
+    
+    .grid-item {
+        text-align: center; 
+        }
+    
+    .navbar-logo {
+            display: flex;
+            justify-content: center;
+        }
+    .navbar-centered {
+            align-items: center;
+        }
+    }
+
+    @media screen and (max-width:768px) {
+        .navbar-logo-2 {
+                display: flex;
+                justify-content: center;
+            }
+        .navbar-centered-2 {
+                align-items: center;
+            }
+        .row img {
+            justify-items: center;
+        }
+        }
