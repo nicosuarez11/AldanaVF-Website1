@@ -3,20 +3,45 @@
     justify-content: center;
 }
 
-.container {
+.item img {
+    float: top;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+.g-col-6 {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    align-items: center;
 }
 
-.item {
+.g-col-6 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.aldana {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    width: 100%;
+    align-items: center;
 }
 
-.item img {
-    max-width: auto;
+.about-me-1 {
+    width: 100%;
+    max-width: 300px;
     height: auto;
+}
+
+.about-me-2 {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+}
+
+.about-me-1 p {
+    text-align: center;
+}
+
+.about-me-2 p {
+    text-align: center;
 }

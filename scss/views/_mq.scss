@@ -33,7 +33,19 @@
     }
 }
 
-@media screen and (min-width: 768px) {
+@media (max-width: 768px) {
+
+    .navbar-logo-2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar-centered-2 {
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
 
     .navbar-logo-2 {
         display: flex;
@@ -45,10 +57,19 @@
     }
 
     .container {
-        grid-template-columns: repeat(4, 1fr);
+        flex-direction: row;
+        align-items: center;
     }
 
     .item {
-        text-align: center;
+        margin-right: 0;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .grid-1 {
+        grid-template-columns: 1fr;
     }
 }
